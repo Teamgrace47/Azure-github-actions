@@ -33,5 +33,5 @@ jobs:
         uses: Azure/functions-action@v1
         with:
           app-name: ${{ secrets.AZURE_FUNCTIONAPP_NAME }}
-          package: '.'
+          package: './MyFunctionProj'
           resource-group: ${{ secrets.AZURE_RESOURCE_GROUP }}
